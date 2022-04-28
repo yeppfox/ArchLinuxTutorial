@@ -2,7 +2,7 @@
 
 本节从安装最基础的无图形化 ArchLinux 系统开始。[官方安装指南](https://wiki.archlinux.org/index.php/Installation_guide)
 
-## 0.禁用 reflector
+## 0.禁用 reflector （不建议直接禁用，可以用例如：reflector --verbose --country Singapore --sort rate --save /etc/pacman.d/mirrorlist）
 
 reflector 会为你选择速度合适的镜像源，但其结果并不准确，同时会清空配置文件中的内容，对于新人来讲并不适用，我们首先对其进行禁用。
 
